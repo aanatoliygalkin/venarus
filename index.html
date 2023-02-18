@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venarus</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header-section">
+    <div class="header">
+      <div class="header-div flex">
+        <img class="header-logo-img" src="img/logo.svg" alt="Логотип">
+        <div class="header-right flex">
+          <button class="btn logo-btn">Где купить</button>
+          <button class="btn logo-menu">
+            <button class="btn logo-menu-active"></button>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="header-menu">
+    <div class="container header-menu-main">
+      <div class="header-menu-div flex">
+      </div>
+      <ul class="header-menu-ul flex">
+        <li class="header-menu-li">Где купить</li>
+        <li class="header-menu-li">О препарате</li>
+        <li class="header-menu-li">О варикозе</li>
+        <li class="header-menu-li">Решение</li>
+        <li class="header-menu-li">Специалистам</li>
+      </ul>
+    </div>
+  </section>
+  <main>
+    <section class="slider-section">
+      <div class="container">
+        <div class="slider flex">
+          <div class="slider-left flex">
+            <h1 class="slider-h1">Надежный помощник в лечении варикоза</h1>
+            <ul class="slider-ul flex">
+              <li class="slider-li slider-icon1">Схема приема</li>
+              <li class="slider-li slider-icon2">Инструкция</li>
+              <li class="slider-li slider-icon3">Где купить</li>
+            </ul>
+          </div>
+          <div class="slider-right flex">
+            <div class="slider-images">
+              <div class="slider-img1 slider-img"></div>
+              <div class="slider-img2 slider-img"></div>
+              <div class="slider-img3 slider-img"></div>
+            </div>
+            <div class="slider-arrows flex">
+              <button class="btn slider-arrow-left">
+              </button>
+              <button class="btn slider-arrow-right">
+              </button>
+            </div>
+            <button class="btn slider-button-down">Где купить &gt;</button>
+          </div>
+        </div>
+        <ul class="slider-ul-mobile flex">
+          <li class="slider-li slider-icon1">Схема приема</li>
+          <li class="slider-li slider-icon2">Инструкция</li>
+          <li class="slider-li slider-icon3">Где купить</li>
+        </ul>
+      </div>
+    </section>
+    <section class="actuality-section">
+      <div class="contraindications-div flex">
+        <h2 class="contraindications-h2">Имеются противопоказания, необходимо ознакомиться с инструкцией или получить
+          консультацию специалиста</h2>
+        <button class="btn contraindications-close"></button>
+      </div>
+      <div class="stroke-div">
+        <marquee class="stroke-sale" scrollamount="30" behavior="scroll" direction="right">получить скидку 10%
+          &gt;&gt;&gt;
+          получить скидку 10% &gt;&gt;&gt;
+          получить скидку 10% \\\\\</marquee>
+      </div>
+      <div class="container">
+        <ul class="actuality-ul flex">
+          <li class="actuality-li flex actuality-li-img1">Доказанная эффективность</li>
+          <li class="actuality-li flex actuality-li-img2">Новая дозировка
+            100 мг + 900 мг</li>
+          <li class="actuality-li flex actuality-li-img3 actuality-tooltip">Удобный прием.
+            Одна таблетка в сутки*
+            <span class="actuality-tooltip-icon">i
+              <span class="actuality-tooltip-text">Подсказка</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="about-section">
+      <div class="container ">
+        <div class="about-div flex">
+          <div class="about-left flex">
+            <h2 class="about-left-h2">О препарате</h2>
+            <p class="about-left-p">Венарус показан для терапии симптомов хронических заболеваний вен (устранения
+              и облегчения симптомов).</p>
+            <button class="btn about-left-btn">Подробнее &gt;</button>
+          </div>
+          <div class="about-right flex">
+            <ul class="about-right-ul flex">
+              <li class="about-right-li about-right-li-img1 ">
+                <p class="about-right-li-text">Помогает
+                  предотвратить судороги
+                </p>
+              </li>
+              <li class="about-right-li about-right-li-img2 ">
+                <p class="about-right-li-text">Способствует
+                  снижению тяжести
+                  в ногах
+                </p>
+              </li>
+              <li class="about-right-li about-right-li-img3 ">
+                <p class="about-right-li-text">Способствует снижению
+                  болевых ощущений
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="view-section">
+      <div class="container view-main flex">
+        <div class="view-left flex">
+          <h2 class="view-h2">Мнение специалистов</h2>
+          <p class="view-p">Фармакотерапия — неотъемлемый компонент современного лечения хронического заболевания вен.
+          </p>
+        </div>
+        <div class="view-right">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="view-right-video">
+                  <img class="view-right-video-img" src="img/view-img.png" alt="Мнение специалистов">
+                  <button id="1" class="btn view-right-play"></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="view-right-video">
+                  <img class="view-right-video-img" src="img/view-img.png" alt="Мнение специалистов">
+                  <button id="2" class="btn view-right-play"></button>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="view-right-video">
+                  <img class="view-right-video-img" src="img/view-img.png" alt="Мнение специалистов">
+                  <button id="3" class="btn view-right-play"></button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info-section">
+      <div class="container">
+        <div class="info-main flex">
+          <div class="info-left">
+            <h2 class="info-left-h2">Полезная информация</h2>
+          </div>
+          <div class="info-right flex">
+            <div class="info-right-img-left info-card">
+              <p class="info-right-img-text">Профилак-
+                тические упражнения</p>
+            </div>
+            <div class="info-right-img-right flex">
+              <div class="info-right-img-right1 info-card">
+                <p class="info-right-img-text">Диагностика и способы лечения</p>
+              </div>
+              <div class="info-right-img-right2 info-card">
+                <p class="info-right-img-text">Планы по питанию</p>
+              </div>
+              <div class="info-right-img-right3 info-card">
+                <p class="info-right-img-text">Факты
+                  о варикозе</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn info-right-btn">Подробнее &gt;</button>
+      </div>
+    </section>
+    <section class="buy-section">
+      <div class="container buy-main flex">
+        <div class="buy-left">
+          <h2 class="buy-left-h2">Где<br>
+            купить</h2>
+          <p class="buy-left-p">Ветонизирующее средство ВЕНАРУС вы можете приобрести в аптеках вашего города</p>
+        </div>
+        <div class="buy-right">
+          <div class="buy-right-btns flex">
+            <button class="btn buy-right-btn">apteka.ru</button>
+            <button class="btn buy-right-btn">366.ru</button>
+            <button class="btn buy-right-btn">stolichki.ru</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contraindications-div-bottom flex">
+      <h2 class="contraindications-h2">Имеются противопоказания, необходимо ознакомиться с инструкцией или получить
+        консультацию специалиста</h2>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-div flex">
+        <div class="footer-left">
+          <a href="#" class="footer-left-a">Сообщить о нежелательном явлении</a>
+        </div>
+        <div class="footer-center">
+          <a href="#" class="footer-center-a">Условия пользования сайтом и файлами Cookies</a>
+          <p class="footer-center-adress">г. Москва, ул. Шаболовка, д. 31, стр. 11
+            Телефон: +7 (495) 555-55-55</p>
+        </div>
+        <div class="footer-right flex">
+          <div class="footer-right-social">
+            <a href="#">
+              <img class="footer-right-icon" src="img/vk.png" alt="Вконтакте">
+            </a>
+            <a href="#">
+              <img class="footer-right-icon" src="img/ok.png" alt="Одноклассники">
+            </a>
+          </div>
+          <div class="footer-logo-div flex">
+            <a href="#">
+              <img class="footer-logo-img footer-right-icon" width="90px" height="41px" src="img/logo2.svg"
+                alt="Логотип">
+            </a>
+            <p class="footer-logo-p">Создание сайтов Фарм-студия №1 в Рунете</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+<script>
+
+  const swiper = new Swiper('.swiper', {
+
+    direction: 'horizontal',
+    loop: true,
+
+    pagination: {
+      clickable: true,
+      el: '.swiper-pagination',
+    },
+
+    autoplay: {
+      delay: 2000,
+    }
+
+  });
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    let currentVideo = null;
+
+    function countImg(count) {
+      remClass();
+      if (count == 1) {
+        document.querySelector('.slider-img1').classList.add('slider-img-bg1');
+        document.querySelector('.slider-img2').classList.add('slider-img-bg2');
+        document.querySelector('.slider-img3').classList.add('slider-img-bg3');
+      }
+      if (count == 2) {
+        document.querySelector('.slider-img1').classList.add('slider-img-bg3');
+        document.querySelector('.slider-img2').classList.add('slider-img-bg1');
+        document.querySelector('.slider-img3').classList.add('slider-img-bg2');
+      }
+      if (count == 3) {
+        document.querySelector('.slider-img1').classList.add('slider-img-bg2');
+        document.querySelector('.slider-img2').classList.add('slider-img-bg3');
+        document.querySelector('.slider-img3').classList.add('slider-img-bg1');
+      }
+    };
+
+    function remClass() {
+      for (c = 1; c < 4; c++) {
+        for (i = 1; i < 4; i++) {
+          if (document.querySelector('.slider-img' + c).classList.contains('slider-img-bg' + i)) {
+            document.querySelector('.slider-img' + c).classList.remove('slider-img-bg' + i);
+          }
+        }
+      }
+    }
+
+    const arrowRight = document.querySelector('.slider-arrow-right');
+    const arrowLeft = document.querySelector('.slider-arrow-left');
+    let count = 1;
+
+    document.querySelector('.slider-img1').classList.add('slider-img-bg1')
+    document.querySelector('.slider-img2').classList.add('slider-img-bg2');
+    document.querySelector('.slider-img3').classList.add('slider-img-bg3');
+
+    arrowRight.addEventListener('click', () => {
+      if (count < 3) {
+        count++;
+      } else {
+        count = 1;
+      }
+      countImg(count);
+    });
+
+    arrowLeft.addEventListener('click', () => {
+      if (count > 1) {
+        count--;
+      } else {
+        count = 3;
+      }
+      countImg(count);
+    });
+
+    document.querySelector('.contraindications-close').addEventListener('click', () => {
+      event.currentTarget.parentNode.style.display = 'none';
+    });
+
+    document.querySelector('.logo-menu').addEventListener('click', () => {
+      document.querySelector('.header-menu').style.display = 'block';
+      document.querySelector('.logo-menu-active').style.display = 'block';
+      document.querySelector('.logo-menu').style.display = 'none';
+    });
+
+    document.querySelector('.logo-menu-active').addEventListener('click', () => {
+      document.querySelector('.header-menu').style.display = 'none';
+      document.querySelector('.logo-menu').style.display = 'block';
+      document.querySelector('.logo-menu-active').style.display = 'none';
+    });
+
+    document.querySelectorAll('.view-right-play').forEach(function (f) {
+      f.addEventListener('click', () => {
+        createPopup(event.currentTarget.id);
+      });
+    });
+
+    function createPopup(slideNum) {
+      let videoDiv = document.createElement('div');
+      videoDiv.classList.add('view-video-div');
+      let effect = document.createElement('div');
+      effect.classList.add('view-video-effect');
+      effect.addEventListener('click', () => {
+        videoDiv.remove();
+      });
+      let ifram = document.createElement('iframe');
+      ifram.classList.add('view-video');
+      ifram.width = '560';
+      ifram.height = '315';
+      ifram.src = 'https://www.youtube.com/embed/DcKTiUWY9ng';
+      ifram.title = 'title="YouTube video player';
+      ifram.frameborder = "0";
+      ifram.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+      ifram.allowfullscreen = true;
+      videoDiv.append(effect);
+      videoDiv.append(ifram);
+      document.body.append(videoDiv);
+      currentVideo = videoDiv;
+    };
+
+  });
+</script>
